@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=http://www.thymeleaf.org xmlns:border="http://www.w3.org/1999/xhtml"
+      xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+</head>
+<body>
+<br>
+
+<div>
+    <table border="1px solid grey" width="100%" >
+        <caption>Список задач</caption>
+        <tr>
+            <th>ID</th>
+            <th>Наименование задачи</th>
+            <th>Время выполнения задачи</th>
+        </tr>
+    <tr th:each="task : ${tasks}">
+        <td th:text = "${task.id}"></td>
+        <td th:text = "${task.nameOfTask}"></td>
+        <td th:text = "${task.timeOfCreateTask}"></td>
+    </tr>
+    </table>
+</div>
+<br>
+</body>
+</html>
