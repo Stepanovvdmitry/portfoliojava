@@ -8,7 +8,7 @@ import java.io.FileReader;
 
 public class Main
 {
-    public static String filePath = "src\\tickets.json";
+    public static String filePath = "C:\\Users\\User\\portgolioJAVA\\Portfolio programmist java. Main work\\TestWork\\JsonTicketsParser\\src\\tickets.json";
     public static void main(String[] args) {
 
 
@@ -32,7 +32,6 @@ public class Main
             JSONParser jsonParser = new JSONParser();
             JSONObject jsonObject = (JSONObject) jsonParser.parse(reader);
             ticketsArray = (JSONArray) jsonObject.get("tickets");
-            parseTickets(ticketsArray);
         }
         catch (Exception ex) {ex.printStackTrace();
         }
