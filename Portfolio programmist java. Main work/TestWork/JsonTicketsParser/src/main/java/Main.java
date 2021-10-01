@@ -2,6 +2,7 @@
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -16,33 +17,28 @@ import java.util.List;
 
 public class Main
 {
-    public static String filePath = "C:\\Users\\User\\portgolioJAVA\\Portfolio programmist java. Main work\\TestWork\\JsonTicketsParser\\src\\tickets.json";
-    public static void main(String[] args) {
-
-
+    public static String filePath = "C:\\Users\\User\\portgolioJAVA\\Portfolio programmist java. Main work\\TestWork\\JsonTicketsParser\\src\\1.json";
+    public static void main(String[] args) throws ParseException {
+        System.out.println(getJsonFile());
        parseTickets(parseJsonFile());
 
         System.out.println("Массив билетов: ");
         Ticket.getTicketsCollection().forEach(ticket -> {System.out.println(ticket.toString());});
-        System.out.println("Cреднее время полета между городами Владивосток и Тель-Авив: " + Ticket.avgTime(Ticket.getTicketsCollection()));
-        System.out.println("90-й процентиль времени полета между городами  Владивосток и Тель-Авив: " + Ticket.calculatePercentile(Ticket.getTicketsCollection()));
-
+        System.out.println("Cреднее время полета между городами Владивосток и Тель-Авив в минутах: " + Ticket.avgTime(Ticket.getTicketsCollection()));
+        System.out.println("90-й процентиль времени полета между городами  Владивосток и Тель-Авив в минутах: " + Ticket.calculatePercentile(Ticket.getTicketsCollection()));
 
 
     }
 
 
-    private static JSONArray parseJsonFile(){
+    private static JSONArray parseJsonFile() throws ParseException {
 
-        JSONArray ticketsArray = null;
-        try {
-            BufferedReader r = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), StandardCharsets.UTF_8));
+
             JSONParser jsonParser = new JSONParser();
-            JSONObject jsonObject = (JSONObject) jsonParser.parse(r);
-            ticketsArray = (JSONArray) jsonObject.get("tickets");
-        }
-        catch (Exception ex) {ex.printStackTrace();
-        }
+            JSONObject jsonObject = (JSONObject) jsonParser.parse(getJsonFile());
+            JSONArray ticketsArray = (JSONArray) jsonObject.get("tickets");
+
+
         return ticketsArray ;
     }
 
@@ -60,10 +56,23 @@ public class Main
                     (String) ticketJsonObject.get("arrival_date"),
                     (String) ticketJsonObject.get("arrival_time"),
                     (String) ticketJsonObject.get("carrier"),
-                    (Integer) ticketJsonObject.get("stops"),
-                    (Integer) ticketJsonObject.get("price")
+                    (Long) ticketJsonObject.get("stops"),
+                    (Long) ticketJsonObject.get("price")
             );
             Ticket.getTicketsCollection().add(ticket);
         });
+    }
+    private static String getJsonFile()
+    {
+        StringBuilder builder = new StringBuilder();
+        try {
+            List<String> lines = Files.readAllLines(Paths.get(filePath));
+            lines.forEach(line -> builder.append(line));
+        }
+        catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        String str =  builder.toString().trim();
+        return builder.toString();
     }
 }
