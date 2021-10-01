@@ -3,7 +3,15 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileReader;
+import java.io.InputStreamReader;
+import java.net.URI;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 
 
 public class Main
@@ -25,12 +33,12 @@ public class Main
 
 
     private static JSONArray parseJsonFile(){
+
         JSONArray ticketsArray = null;
         try {
-            FileReader reader = new FileReader(filePath);
-
+            BufferedReader r = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), StandardCharsets.UTF_8));
             JSONParser jsonParser = new JSONParser();
-            JSONObject jsonObject = (JSONObject) jsonParser.parse(reader);
+            JSONObject jsonObject = (JSONObject) jsonParser.parse(r);
             ticketsArray = (JSONArray) jsonObject.get("tickets");
         }
         catch (Exception ex) {ex.printStackTrace();
