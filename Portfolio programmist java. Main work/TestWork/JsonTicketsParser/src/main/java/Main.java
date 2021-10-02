@@ -17,7 +17,7 @@ import java.util.List;
 
 public class Main
 {
-    public static String filePath = "C:\\Users\\User\\portgolioJAVA\\Portfolio programmist java. Main work\\TestWork\\JsonTicketsParser\\src\\1.json";
+    public static String filePath = "C:\\Users\\User\\portgolioJAVA\\Portfolio programmist java. Main work\\TestWork\\JsonTicketsParser\\src\\main\\resources\\1.json";
     public static void main(String[] args) throws ParseException {
         System.out.println(getJsonFile());
        parseTickets(parseJsonFile());
