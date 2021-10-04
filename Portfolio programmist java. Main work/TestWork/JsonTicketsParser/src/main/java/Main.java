@@ -25,7 +25,7 @@ public class Main
         System.out.println("Массив билетов: ");
         Ticket.getTicketsCollection().forEach(ticket -> {System.out.println(ticket.toString());});
         System.out.println("Cреднее время полета между городами Владивосток и Тель-Авив в минутах: " + Ticket.avgTime(Ticket.getTicketsCollection()));
-        System.out.println("90-й процентиль времени полета между городами  Владивосток и Тель-Авив в минутах: " + Ticket.calculatePercentile(Ticket.getTicketsCollection()));
+        System.out.println("90-й процентиль времени полета между городами  Владивосток и Тель-Авив в минутах: " + Ticket.percentile(Ticket.getLatencies(),90));
 
 
     }

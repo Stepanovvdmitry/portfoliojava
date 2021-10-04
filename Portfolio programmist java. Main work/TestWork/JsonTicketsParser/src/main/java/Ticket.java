@@ -4,6 +4,8 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class Ticket
@@ -22,6 +24,12 @@ public class Ticket
     private String carrier;
     private Long stops;
     private Long price;
+
+    public static ArrayList<Double> getLatencies() {
+        return latencies;
+    }
+
+    private static ArrayList<Double> latencies = new ArrayList<>();
 
     private static ArrayList<Ticket> ticketsCollection = new ArrayList<>();
 
@@ -47,6 +55,7 @@ public class Ticket
     }
 
     public static long avgTime(ArrayList<Ticket> collectionTickets) {
+        long sum = 0;
         long sumDate = 0;
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd.MM.yy");
         LocalDate departureDatelocal;
@@ -61,7 +70,10 @@ public class Ticket
             String[] dayMonthYearDeparture = ticket.arrivalDate.replace(".", " ").split(" ");
             LocalDateTime toDateTimeArrive = LocalDateTime.of(Integer.parseInt(dayMonthYearArrive[0]), Integer.parseInt(dayMonthYearArrive[1]), Integer.parseInt(dayMonthYearArrive[2]), Integer.parseInt(hoursMinutesArrive[0]), Integer.parseInt(hoursMinutesArrive[1]));
             LocalDateTime toDateTimeDeparture = LocalDateTime.of(Integer.parseInt(dayMonthYearDeparture[0]), Integer.parseInt(dayMonthYearDeparture[1]), Integer.parseInt(dayMonthYearDeparture[2]), Integer.parseInt(hoursMinutesDeparture[0]), Integer.parseInt(hoursMinutesDeparture[1]));
-            sumDate += Math.abs(ChronoUnit.MINUTES.between(toDateTimeArrive, toDateTimeDeparture));
+            sum = Math.abs(ChronoUnit.MINUTES.between(toDateTimeArrive, toDateTimeDeparture));
+            getLatencies().add(Double.parseDouble(String.valueOf(sum)));
+            sumDate+= Math.abs(ChronoUnit.MINUTES.between(toDateTimeArrive, toDateTimeDeparture));;
+
 
         }
 
@@ -73,11 +85,12 @@ public class Ticket
 
     }
 
-    public static double calculatePercentile(ArrayList<Ticket> collectionTickets) {
-        double percentile = 0;
-        percentile = ((90* Ticket.avgTime(collectionTickets))/100) ;
-        return percentile;
-}
+    public static double percentile(ArrayList<Double> latencies, double percentile) {
+        Collections.sort(latencies);
+        int index = (int) Math.ceil(percentile / 100.0 * latencies.size());
+        return latencies.get(index - 1);
+    }
+
     @Override
     public String toString() {
         return "Ticket{" +
