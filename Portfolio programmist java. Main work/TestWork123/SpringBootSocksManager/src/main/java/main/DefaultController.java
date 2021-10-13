@@ -36,26 +36,27 @@ public class DefaultController
         ArrayList currentIDs = new ArrayList();
         socksIterable.forEach(s -> socks.add(s));
         Socks newSocks = new Socks();
-        ResponseEntity responseEntity = null;
+        ResponseEntity responseEntity = new ResponseEntity("Cтандартный статус", HttpStatus.OK);
         ArrayList<String> arrayIDs = new ArrayList<>();
-        for (Socks socksItem : socks) {
-            if (socksItem.getQuantity() - socksRequest.getQuantity() >= 0) {
-                 if (socksRequest.getColor().equals(socksItem.getColor()) && socksRequest.getCottonPart().equals(socksItem.getCottonPart())) {
 
-                    socksItem.setQuantity(socksItem.getQuantity() - socksRequest.getQuantity());
-                    newSocks = socksRepositiry.save(socksItem);
+            for (Socks socksItem : socks) {
+                if (socksItem.getQuantity() - socksRequest.getQuantity() >= 0) {
+                    if (socksRequest.getColor().equals(socksItem.getColor()) && socksRequest.getCottonPart().equals(socksItem.getCottonPart())) {
 
-                    arrayIDs.add(String.valueOf(newSocks.getId()));
+                        socksItem.setQuantity(socksItem.getQuantity() - socksRequest.getQuantity());
+                        newSocks = socksRepositiry.save(socksItem);
+
+                        arrayIDs.add(String.valueOf(newSocks.getId()));
 
 
-                } else{
-                    currentIDs.add(newSocks.getId() + 1);
-                }
-                responseEntity = new ResponseEntity("Задача обновлена: id: " + arrayIDs + ", id с таким цветом и хлопков нет в наличии: " + currentIDs, HttpStatus.OK);
+                    }
+                    responseEntity = new ResponseEntity("Задача обновлена: id: " + arrayIDs, HttpStatus.OK);
 
-                
-            } else return new ResponseEntity("Сумма ухода должны меньше чем приход во всех носках", HttpStatus.BAD_REQUEST);
-        }
+
+                } else return new ResponseEntity("Сумма ухода должны меньше чем приход во всех носках", HttpStatus.BAD_REQUEST);
+            }
+
+        
         return responseEntity;
     }
 
