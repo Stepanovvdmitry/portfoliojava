@@ -33,21 +33,30 @@ public class DefaultController
     public ResponseEntity putSocks(@RequestBody Socks socksRequest) {
         Iterable<Socks> socksIterable = socksRepositiry.findAll();
         ArrayList<Socks> socks = new ArrayList<>();
+        ArrayList currentIDs = new ArrayList();
         socksIterable.forEach(s -> socks.add(s));
         Socks newSocks = new Socks();
+        ResponseEntity responseEntity = null;
         ArrayList<String> arrayIDs = new ArrayList<>();
         for (Socks socksItem : socks) {
-            if (socksItem.getQuantity() - socksRequest.getQuantity() >= 0 && socksRequest.getColor().equals(socksItem.getColor()) && socksRequest.getCottonPart().equals(socksItem.getCottonPart())) {
+            if (socksItem.getQuantity() - socksRequest.getQuantity() >= 0) {
+                 if (socksRequest.getColor().equals(socksItem.getColor()) && socksRequest.getCottonPart().equals(socksItem.getCottonPart())) {
 
-                socksItem.setQuantity(socksItem.getQuantity() - socksRequest.getQuantity());
-               newSocks = socksRepositiry.save(socksItem);
+                    socksItem.setQuantity(socksItem.getQuantity() - socksRequest.getQuantity());
+                    newSocks = socksRepositiry.save(socksItem);
 
-               arrayIDs.add(String.valueOf(newSocks.getId()));
+                    arrayIDs.add(String.valueOf(newSocks.getId()));
 
-            } else return new ResponseEntity("Сумма ухода должна быть меньше суммы прихода,цвет с таким содержанием хлопка не найден", HttpStatus.BAD_REQUEST);
 
+                } else{
+                    currentIDs.add(newSocks.getId() + 1);
+                }
+                responseEntity = new ResponseEntity("Задача обновлена: id: " + arrayIDs + ", id с таким цветом и хлопков нет в наличии: " + currentIDs, HttpStatus.OK);
+
+                
+            } else return new ResponseEntity("Сумма ухода должны меньше чем приход во всех носках", HttpStatus.BAD_REQUEST);
         }
-        return new ResponseEntity("Задача обновлена: id: " + arrayIDs, HttpStatus.OK);
+        return responseEntity;
     }
 
 
