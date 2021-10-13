@@ -40,7 +40,7 @@ public class DefaultController
         ArrayList<String> arrayIDs = new ArrayList<>();
 
             for (Socks socksItem : socks) {
-                if (socksItem.getQuantity() - socksRequest.getQuantity() >= 0) {
+                if (socksItem.getQuantity() - socksRequest.getQuantity() >= 0 && socksRequest.getQuantity() >= 0) {
                     if (socksRequest.getColor().equals(socksItem.getColor()) && socksRequest.getCottonPart().equals(socksItem.getCottonPart())) {
 
                         socksItem.setQuantity(socksItem.getQuantity() - socksRequest.getQuantity());
@@ -53,10 +53,10 @@ public class DefaultController
                     responseEntity = new ResponseEntity("Задача обновлена: id: " + arrayIDs, HttpStatus.OK);
 
 
-                } else return new ResponseEntity("Сумма ухода должны меньше чем приход во всех носках", HttpStatus.BAD_REQUEST);
+                } else return new ResponseEntity("Сумма ухода должна меньше чем приход во всех носках и должна быть положительной", HttpStatus.BAD_REQUEST);
             }
 
-        
+
         return responseEntity;
     }
 
