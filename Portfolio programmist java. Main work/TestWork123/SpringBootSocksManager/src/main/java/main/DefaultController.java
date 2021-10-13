@@ -28,20 +28,25 @@ public class DefaultController
     else  return new ResponseEntity("Сумма должная быть положительной", HttpStatus.BAD_REQUEST);
 
     }
-    @PostMapping("/api/socks/{id}/outcome")
-    public ResponseEntity putSocks( @PathVariable Integer id, @RequestBody String quantity)
-    {
-        Optional<Socks> patchingSocks = socksRepositiry.findById(id);
-        Socks newPatchingSocks = patchingSocks.get();
-        Integer socksQuantity = newPatchingSocks.getQuantity();
-        if(socksQuantity  - Integer.parseInt(quantity)>= 0) {
-            newPatchingSocks.setQuantity(socksQuantity  - Integer.parseInt(quantity));
-            Socks newSocks = socksRepositiry.save(newPatchingSocks);
-            return new ResponseEntity("Задача обновлена: id: " + newSocks.getId(), HttpStatus.OK);
-        }
 
-        else return new ResponseEntity("Сумма ухода должна быть меньше суммы прихода", HttpStatus.BAD_REQUEST);
+    @PostMapping("/api/socks/outcome")
+    public ResponseEntity putSocks(@RequestBody Socks socksRequest) {
+        Iterable<Socks> socksIterable = socksRepositiry.findAll();
+        ArrayList<Socks> socks = new ArrayList<>();
+        socksIterable.forEach(s -> socks.add(s));
+        Socks newSocks = new Socks();
+        for (Socks socksItem : socks) {
+            if (socksItem.getQuantity() - socksRequest.getQuantity() >= 0 && socksRequest.getColor().equals(socksItem.getColor()) && socksRequest.getCottonPart().equals(socksItem.getCottonPart())) {
+
+                socksItem.setQuantity(socksItem.getQuantity() - socksRequest.getQuantity());
+               newSocks = socksRepositiry.save(socksItem);
+
+            } else return new ResponseEntity("Сумма ухода должна быть меньше суммы прихода,цвет с таким содержанием хлопка не найден", HttpStatus.BAD_REQUEST);
+
+        }
+        return new ResponseEntity("Задача обновлена: id: " + newSocks.getId(), HttpStatus.OK);
     }
+
 
     @GetMapping("api/socks")
     public ResponseEntity getCount(@RequestParam String color, @RequestParam String operation, @RequestParam String cottonPart ) {
