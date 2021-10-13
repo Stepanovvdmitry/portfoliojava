@@ -40,8 +40,8 @@ public class DefaultController
         else return "Сумма ухода должна быть меньше суммы прихода";
     }
 
-    @GetMapping("api/socks/color/{color}/operation/{operation}/cottonPart/{cottonPart}")
-    public String getID(@PathVariable String color, @PathVariable String operation, @PathVariable String cottonPart ) {
+    @GetMapping("api/socks")
+    public String getID(@RequestParam String color, @RequestParam String operation, @RequestParam String cottonPart ) {
         Integer count = null;
         Iterable<Socks> socksIterable = socksRepositiry.findAll();
         ArrayList<Socks> socks = new ArrayList<>();
