@@ -42,7 +42,7 @@ public class DefaultController
 
     @GetMapping("api/socks")
     public String getID(@RequestParam String color, @RequestParam String operation, @RequestParam String cottonPart ) {
-        Integer count = null;
+        Integer count = 0;
         Iterable<Socks> socksIterable = socksRepositiry.findAll();
         ArrayList<Socks> socks = new ArrayList<>();
         socksIterable.forEach(s -> socks.add(s));
