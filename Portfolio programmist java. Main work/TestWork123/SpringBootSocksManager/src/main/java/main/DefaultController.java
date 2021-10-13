@@ -35,16 +35,19 @@ public class DefaultController
         ArrayList<Socks> socks = new ArrayList<>();
         socksIterable.forEach(s -> socks.add(s));
         Socks newSocks = new Socks();
+        ArrayList<String> arrayIDs = new ArrayList<>();
         for (Socks socksItem : socks) {
             if (socksItem.getQuantity() - socksRequest.getQuantity() >= 0 && socksRequest.getColor().equals(socksItem.getColor()) && socksRequest.getCottonPart().equals(socksItem.getCottonPart())) {
 
                 socksItem.setQuantity(socksItem.getQuantity() - socksRequest.getQuantity());
                newSocks = socksRepositiry.save(socksItem);
 
+               arrayIDs.add(String.valueOf(newSocks.getId()));
+
             } else return new ResponseEntity("Сумма ухода должна быть меньше суммы прихода,цвет с таким содержанием хлопка не найден", HttpStatus.BAD_REQUEST);
 
         }
-        return new ResponseEntity("Задача обновлена: id: " + newSocks.getId(), HttpStatus.OK);
+        return new ResponseEntity("Задача обновлена: id: " + arrayIDs, HttpStatus.OK);
     }
 
 
