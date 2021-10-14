@@ -53,7 +53,7 @@ public class DefaultController
                     responseEntity = new ResponseEntity("Задача обновлена: id: " + arrayIDs, HttpStatus.OK);
 
 
-                } else return new ResponseEntity("Сумма ухода должна меньше чем приход во всех носках и должна быть положительной", HttpStatus.BAD_REQUEST);
+                } else return new ResponseEntity("Сумма ухода должна быть меньше, чем приход во всех носках и должна быть положительной", HttpStatus.BAD_REQUEST);
             }
 
 
