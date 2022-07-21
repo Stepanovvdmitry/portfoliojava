@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FamilyTODOLIST2.0" />
-        <module name="ToDoList" />
-        <module name="12_ToDoList" />
+        <module name="LinksForkJoin11" />
+        <module name="LinksForkJoin10" />
+        <module name="LinksForkJoin" />
       </profile>
     </annotationProcessing>
   </component>
