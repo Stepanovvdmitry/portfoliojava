@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4696e356-de94-4a2d-85e9-7c1f5f1c29b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/.idea/12_SpringBootWebDevelopment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/12_ToDoList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/src/main/java/main/DefaultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/src/main/java/main/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/src/main/java/main/TaskRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/src/main/java/main/model/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/classes/main/DefaultController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/classes/main/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/classes/main/TaskRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/classes/main/model/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/ToDoList/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/12_ToDoList/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/java/main/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/java/main/DefaultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/java/main/Storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/java/main/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/java/main/model/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/js/jquery-3.4.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/main/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/main/DefaultController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/main/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/main/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/main/model/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/static/js/jquery-3.4.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/12_SpringBootWebDevelopment/BookLibrary/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/Hybernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/CourseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/LinkedPurchaseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/LinkedPurchaseListKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/PurchaseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/PurchaseListKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/Subscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/SubscriptionKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/java/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/CourseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/LinkedPurchaseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/LinkedPurchaseListKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/META-INF/Hybernate.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/PurchaseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/PurchaseListKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/Subscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/SubscriptionKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/Hybernate12/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/(2).gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/LinksForkJoin10 (2).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/LinksForkJoin10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/compiler (2).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/jarRepositories (2).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/misc (2).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/8/3/83348d283c1ba0b3b4d55fdc04c39a165b933125" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/8/3/83348d283c1ba0b3b4d55fdc04c39a165b933125 (2)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/b/e/be532018d992a104233cb39e80c0659f43a42d46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/b/e/be532018d992a104233cb39e80c0659f43a42d46 (2)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/d/a/da047e19b2df87b15d8b9c261c09b5bea8a78288" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/d/a/da047e19b2df87b15d8b9c261c09b5bea8a78288 (2)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10 (2)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/index (2).pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/.idea/workspace (2).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/LinksForkJoin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/src/main/java/Link (2).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/src/main/java/Link.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/src/main/java/LinkForkAndJoin (2).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/src/main/java/LinkForkAndJoin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/src/main/java/Main (2).java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/target/classes/Link (2).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/target/classes/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/target/classes/LinkForkAndJoin (2).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/target/classes/LinkForkAndJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/target/classes/Main (2).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/LinksForkJoin15/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/SPBMetro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/logs/exceptions.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/logs/input_errors.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/logs/search.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/src/main/java/RouteCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/src/main/java/RouteCalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/src/main/java/StationIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/src/main/java/core/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/src/main/java/core/Station.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/src/main/resources/map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/target/classes/RouteCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/target/classes/RouteCalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/target/classes/StationIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/target/classes/core/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/target/classes/core/Station.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/SPBMetro/target/classes/map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Портфолио программист. основные работы/SPBMetro/__MACOSX/SPBMetro/._.DS_Store" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1eubEMdHtwqhQssZWPwXN9bcjmm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LinksForkJoin10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4696e356-de94-4a2d-85e9-7c1f5f1c29b4" name="Default Changelist" comment="" />
+      <created>1595174312622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595174312622</updated>
+      <workItem from="1602070792721" duration="2251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="977" y="319" key="#Main" timestamp="1602070854970">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="977" y="319" key="#Main/0.0.2560.1400@0.0.2560.1400" timestamp="1602070854970" />
+    <state x="1035" y="406" key="#xdebugger.evaluate" timestamp="1602072671761">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1035" y="406" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1602072671761" />
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1602073045954">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602073045954" />
+    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1602073045953">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602073045953" />
+    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1602073045953">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602073045953" />
+    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1602073045953">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602073045953" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LinksForkJoin$Main.ic" NAME="Main Coverage Results" MODIFIED="1601639600585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
